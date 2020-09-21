@@ -1,4 +1,4 @@
-import React , {useState ,  useEffect } from 'react'
+import React , {useState  } from 'react'
 import MaterialTable from 'material-table';
 import Modal from 'react-bootstrap/Modal'
 import Button from 'react-bootstrap/Button'
@@ -12,7 +12,7 @@ function Home() {
   const[activityTime , setActivityTime] = useState('');
   
     const handleClose = () => setShow(false);
-    const handleShow = () => setShow(true);
+    
 
     var data = require('./TestJSON.json');
     
